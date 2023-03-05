@@ -1,0 +1,6 @@
+{
+  "socket_core.socket": "  %1$s: %2$s (%3$s)",
+  "socket_core.socket_empty": "  %1$s: Empty"
+
+
+}

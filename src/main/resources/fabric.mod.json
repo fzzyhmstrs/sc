@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "socket_core",
+	"version": "${version}",
+	"name": "Socket Core",
+	"description": "A simple library that adds sockets to items!",
+	"authors": [
+		"fzzyhmstrs"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/socket_core/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.fzzyhmstrs.socket_core.SC"
+		]
+	},
+	"mixins": [
+		"socket_core.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.14",
+		"minecraft": "~1.19",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
