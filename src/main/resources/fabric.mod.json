@@ -27,5 +27,10 @@
 		"minecraft": "~1.19",
 		"java": ">=17",
 		"fabric-api": "*"
+	},
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/class_1799": ["me/fzzyhmstrs/socket_core/interfaces/SocketHolder"]
+		}
 	}
 }

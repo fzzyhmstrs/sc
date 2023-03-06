@@ -1,0 +1,8 @@
+{
+  "socket.socket_core.default": "Sockets:",
+  "socket_core.socket_simple": "%1$s (%2$s)",
+  "socket_core.socket": "  %1$s: %2$s",
+  "socket_core.socket_empty": "  %1$s: Empty"
+
+
+}

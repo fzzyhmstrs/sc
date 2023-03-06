@@ -3,6 +3,7 @@
 	"package": "me.fzzyhmstrs.socket_core.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
+		"ItemStackMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
